@@ -1,6 +1,6 @@
 #### In additions:
 
-- ```.then()``` returns a response object which is a resolved promise from a successful fetch, whereas ```.catch()``` handles & returns an error if something goes wrong with the request.
+- ```.then()``` returns a response object which is a resolved promise from a successful fetch, whereas ```.catch()``` handles & returns an error if something goes wrong with the request or when a promise is rejected.
 
 - ```Promises``` are the core of JavaScript asynchronous programming, allowing multiple executions even while awaiting responses, such as when fetching API from a remote serverrr.
 
